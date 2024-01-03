@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; margin: 0;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    margin: 0;
+    font-family: 'Bai Jamjuree', sans-serif; 
+    text-align: center;
+}
+
+header {
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 4rem;
+}   
+
+.page-title {
+    font-size: 2rem;
+    padding: 1.5rem 2rem 0 2rem;
+    color: hsl(210, 10%, 33%);
+    line-height: 2rem;
+}
+
+.page-subtitle {
+    font-size: 1.6rem;
+    padding: 1.5rem 2rem 0 2rem;
+    color: hsl(210, 10%, 33%);
+    line-height: 2rem;
+}
+
+.page-description {
+    font-size: 1rem;
+    margin: auto;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.4rem;
+    width: 82%;
+    line-height: 2rem;
+}
+
+.description-two {
+    font-size: 1rem;
+    margin: auto;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.4rem;
+    width: 82%;
+}
+
+.description-three {
+    font-size: 1rem;
+    margin: auto;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.4rem;
+    width: 82%;
+}
+
+.download-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    margin: 2.5rem auto;
+}
+
+.download-ios {
+    font-family: 'Bai Jamjuree', sans-serif; 
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: #FFFFFF;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    box-shadow: hsl(171, 80%, 60%) 1.95px 1.95px 2.6px;
+}
+
+.download-mac {
+    cursor: pointer;
+    font-family: 'Bai Jamjuree', sans-serif; 
+    font-weight: 600;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    color: #FFFFFF;
+    padding: 0.8rem 2rem;
+    border-radius: 20px;
+    box-shadow: hsl(233, 100%, 69%) 1.95px 1.95px 2.6px;
+}
+
+.devices-img {
+    max-width: 80vw;
+    margin-top: 3rem;
+}
+
+.icons {
+    margin-top: 3rem;
+}
+
+.tools-title {
+    font-size: 1.4rem;
+    padding: 1.5rem 2rem 0 2rem;
+    color: hsl(210, 10%, 33%);
+}
+
+#logos {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin: 6rem auto;
+}
+
+#logos img {
+    max-width: 30vw;
+}
+
+footer {
+    background-color: hsla(202, 11%, 66%, 0.211);
+}
+
+footer a {
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+}
+
+.footer-img {
+    max-width: 10vw;
+    margin: 2rem auto;
+}
+
+#footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+
+@media (min-width: 1000px) {
+    header {
+        background-image: url(images/bg-header-desktop.png);
+    }   
+
+    .page-description {
+        width: 50%;
+    }
+
+    .description-two {
+        width: 65%;
+        margin: 1rem 2rem;
+    }
+
+    .download-btns {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #resources {
+        display: flex;
+        flex-direction: row;
+        flex-shrink: 0;
+        gap: 4rem;
+        text-align: left;
+        margin: 1rem auto;
+    }
+
+    .devices-img {
+        max-width: 60vw;
+        margin-top: 2rem;
+        margin-left: -2rem;
+    }
+
+    .resource-itens {
+        justify-content: left;
+    }
+
+    #tools {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+    }
+
+    #logos {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px; 
+        justify-items: center;
+        margin: 8rem auto;
+    }
+
+    #footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        gap: 6rem;
+    }
+
+    .footer-img {
+        max-width: 5vw;
+        margin: 2rem auto;
+    }
+    
+    footer a:hover {
+        color: hsl(171, 66%, 44%);
+    }
+
+    #footer-icons a:hover {
+        color: hsl(171, 66%, 44%);
+    }
+}
