@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://your-solution-url.com)
+- Solution URL: [GitHub Repository](https://github.com/Itsrenata2/FrontEnd-Mentor-Clipboard-Landing-Page)
 - Live Site URL: [FrontEnd Mentor | Clipboard Landing Page](https://front-end-mentor-clipboard-landing-page-psi.vercel.app/)
 
 ## My process
